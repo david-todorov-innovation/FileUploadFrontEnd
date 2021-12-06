@@ -10,9 +10,10 @@
 
 <button id="showBtn" name="show-button" onclick="showFile()">Show file</button>
 
-<form enctype="multipart/form-data" method="POST" action="http://localhost:3000/upload"> <!-- api path name to be determined -->
-    Choose a file to upload: <input id="file-uploader" name="uploadedfile" type="file" /><br />
-    <input type="submit" value="Upload File" />
+<form enctype="multipart/form-data" method="POST" action="http://localhost:8080/upload"> <!-- api path name to be determined -->
+    Choose a file to upload:
+    <input id="fileContent" name="fileContent" type="file" /> <br/>
+    <input type="submit" value="Submit" />
 </form>
 
 <textarea id="textArea"></textarea>
